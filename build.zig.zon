@@ -1,0 +1,13 @@
+.{
+    .name = .slate_ecs,
+    .version = "0.0.0",
+    .dependencies = .{},
+    .fingerprint = 0x1e6da02cd156ff74,
+    .minimum_zig_version = "0.16.0",
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+        "LICENSE",
+    },
+}

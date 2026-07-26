@@ -4,6 +4,8 @@ pub const IdFlags = packed struct(u4) {
 };
 
 pub const Identifier = packed union(u64) {
+    raw: u64,
+
     entity: packed struct {
         id: u32,
         generation: u28,

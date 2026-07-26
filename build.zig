@@ -34,4 +34,5 @@ pub fn build(b: *std.Build) void {
         .linkage = .static,
     });
     check.dependOn(&lib_check.step);
+    check.dependOn(&run_tests.step);
 }
